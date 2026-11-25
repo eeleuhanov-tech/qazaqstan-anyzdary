@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="kk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Қорқыт ата, Ақсақ құлан, Бәйтерек пен Самұрық және Ер Төстік туралы аңыздар мен ертегілер.">
+  <title>Қазақстандағы аңыздар мен мифтер</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #1d2924;
+      --pine: #193c33;
+      --paper: #f6f1e5;
+      --gold: #ecd3a0;
+      --rule: #d7cebb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font: 1rem/1.65 system-ui, sans-serif;
+    }
+    .wrap { width: min(66rem, calc(100% - 3rem)); margin-inline: auto; }
+    a { color: inherit; text-underline-offset: .24em; }
+    a:focus-visible, summary:focus-visible { outline: 2px solid currentColor; outline-offset: 5px; }
+    .hero {
+      background: radial-gradient(ellipse at 95% 0%, #395e4c, transparent 57%), var(--pine);
+      color: #fff9eb;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .5rem 1.5rem;
+      padding: 1.05rem 0;
+      border-bottom: 1px solid #ffffff45;
+      font-size: .94rem;
+    }
+    nav a { text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    .intro { padding: clamp(3rem, 8vw, 7rem) 0; }
+    h1, h2, h3 {
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.12;
+      text-wrap: balance;
+    }
+    h1 { max-width: 15ch; margin: 0; font-size: clamp(2.2rem, 7.5vw, 5.65rem); }
+    .intro p { max-width: 52ch; margin: 1.5rem 0; color: #f3ead7; font-size: 1.1rem; }
+    .button {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--ink);
+      border-radius: .3rem;
+      padding: .65rem 1rem;
+      font-weight: 650;
+      text-decoration: none;
+    }
+    .button:hover { background: #f7e3b9; }
+    section { padding: 2.8rem 0; }
+    section + section { border-top: 1px solid var(--rule); }
+    h2 { margin: 0 0 1.5rem; font-size: clamp(1.75rem, 4.2vw, 3rem); }
+    h3 { margin: 0 0 .7rem; font-size: clamp(1.45rem, 3vw, 2rem); }
+    .stories { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.1rem; }
+    article {
+      padding: clamp(1rem, 3vw, 2rem);
+      background: #fffaf0;
+      border: 1px solid var(--rule);
+      border-top: 4px solid #8c692b;
+      border-radius: .4rem;
+    }
+    article p { margin: 0 0 1rem; }
+    .genre { color: #674d24; font-size: .82rem; font-weight: 700; }
+    summary { cursor: pointer; font-weight: 650; color: var(--pine); }
+    details { border-top: 1px solid var(--rule); padding-top: .8rem; }
+    details p { margin: .65rem 0 0; }
+    details a { display: inline-block; margin-top: .6rem; }
+    .guide { max-width: 72ch; }
+    li + li { margin-top: .6rem; }
+    footer { padding: 1.2rem 0; background: var(--pine); color: #fff9eb; }
+    @media (max-width: 680px) {
+      .stories { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 400px) {
+      .wrap { width: calc(100% - 2rem); }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero" id="top">
+    <div class="wrap">
+      <nav aria-label="Сайт бөлімдері">
+        <a href="#stories">Аңыздар мен ертегілер</a>
+        <a href="#genres">Жанрлар</a>
+        <a href="#sources">Дереккөздер</a>
+      </nav>
+      <div class="intro">
+        <h1>Қазақстандағы аңыздар мен мифтер</h1>
+        <p>Қорқыт неліктен ажалдан қашты? Домбыра қаралы хабарды қалай жеткізді? Қазақ фольклорындағы төрт оқиғаға үңіл.</p>
+        <a class="button" href="#stories">Оқиғаларды оқу</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="stories" aria-labelledby="stories-title">
+      <h2 id="stories-title">Төрт фольклорлық оқиға</h2>
+      <div class="stories">
+        <article>
+          <p class="genre">Аңыз · Сырдария</p>
+          <h3>Қорқыт ата</h3>
+          <p>Аңыздың бір нұсқасында Қорқыт ажалдан қашып, қайда барса да өзіне арнап қазылған көрді көреді. Ақыры ол Сырдарияға оралып, су бетіне кілем төсейді де, қобыз тартады.</p>
+          <details>
+            <summary>Аңыздың мәні</summary>
+            <p>Қорқыттың жолы адам өмірінің шектеулі екенін көрсетеді. Қобыз үні арқылы аңыз өнер мен адамның артында қалатын мұрасы туралы ой қозғайды.</p>
+            <a href="#qorqyt-source">Қорқыт туралы дереккөздер</a>
+          </details>
+        </article>
+
+        <article>
+          <p class="genre">Күй аңызы · Жошы туралы әңгіме</p>
+          <h3>Ақсақ құлан</h3>
+          <p>Кең тараған нұсқада Жошы аң аулап жүріп қаза табады. Шыңғыс ханға қаралы хабарды айтуға ел қаймығады. Сонда Кетбұға болған оқиғаны домбырамен күй тартып жеткізеді.</p>
+          <details>
+            <summary>Аңыздың мәні</summary>
+            <p>Бұл оқиғада күй хабар жеткізудің тіліне айналады. Жошы — тарихи тұлға. Оның қазасын домбырамен естірту оқиғасы күй аңызы арқылы тараған.</p>
+            <a href="#kulan-source">«Ақсақ құлан» туралы дереккөз</a>
+          </details>
+        </article>
+
+        <article>
+          <p class="genre">Мифтік сарын · Өмір ағашы</p>
+          <h3>Бәйтерек пен Самұрық</h3>
+          <p>Мифтік әңгімеде Самұрық құсы Бәйтеректің басына алтын жұмыртқа салады. Ағаштың түбінде оны жұтқысы келетін айдаһар жатады.</p>
+          <details>
+            <summary>Мифтің мәні</summary>
+            <p>Ағаштың тамыры, діңі мен ұшар басын жер асты, жер үсті және аспан әлемдерінің бейнесі ретінде түсіндіруге болады. Астанадағы «Бәйтерек» монументінің бейнесінде осы сарын қолданылған.</p>
+            <a href="#baiterek-source">Бәйтерек туралы дереккөз</a>
+          </details>
+        </article>
+
+        <article>
+          <p class="genre">Қиял-ғажайып ертегі · Жер асты әлемі</p>
+          <h3>Ер Төстік</h3>
+          <p>Ер Төстік жер астына түсіп, түрлі сыннан өтеді. Ертегінің бір нұсқасында ол Самұрықтың балапандарын айдаһардан қорғайды. Самұрық оны жер бетіне алып шығады.</p>
+          <details>
+            <summary>Ертегінің мәні</summary>
+            <p>Бұл ертегіде Самұрық кейіпкерге бір әлемнен екінші әлемге өтуге көмектеседі. Оның Ер Төстікке көмектесуі жақсылыққа жақсылықпен жауап беру идеясын да ашады.</p>
+            <a href="#tostik-source">Ер Төстік туралы дереккөз</a>
+          </details>
+        </article>
+      </div>
+    </section>
+
+    <section id="genres" aria-labelledby="genres-title">
+      <h2 id="genres-title">Миф, аңыз және ертегі</h2>
+      <div class="guide">
+        <p><strong>Миф</strong> әлемнің құрылысы мен табиғат құбылыстарын бейнелі әңгімелер арқылы түсіндіреді. <strong>Аңыз</strong> көбіне белгілі бір адамға, жерге немесе оқиғаға қатысты айтылады. <strong>Қиял-ғажайып ертегіде</strong> сиқырлы кейіпкерлер мен ерекше сынақтар оқиғаны алға жылжытады.</p>
+        <p>Бір бейне әр жанрда түрлі қызмет атқара алады. Бәйтерек туралы әңгімеде Самұрық өмір ағашымен байланысты болса, Ер Төстікте ол батырға көмектеседі.</p>
+      </div>
+    </section>
+
+    <section id="sources" aria-labelledby="sources-title">
+      <h2 id="sources-title">Дереккөздер</h2>
+      <ul>
+        <li id="qorqyt-source"><a href="https://ich.unesco.org/en/RL/heritage-of-dede-qorqud-korkyt-ata-dede-korkut-epic-culture-folk-tales-and-music-01399">UNESCO — Қорқыт ата мұрасы</a> және <a href="https://e-history.kz/upload/iblock/05f/05fc5734fbc38f462f3f1cd58b2ab139.pdf">Қазақстан тарихы порталы — Сырдариядағы аңыз нұсқасы (PDF)</a></li>
+        <li id="kulan-source"><a href="https://adebiportal.kz/kz/books/view/aksak-kulan__3300">Әдебиет порталы — «Ақсақ құлан» жинағы</a></li>
+        <li id="baiterek-source"><a href="https://kazakhstan.travel/kz/attractions/423">Kazakhstan.travel — «Бәйтерек» монументі және Өмір ағашы</a></li>
+        <li id="tostik-source"><a href="https://e-history.kz/storage/upload/library_kk_files/iblock/751/751ba5e72a82799cde3042c1e45390e8.pdf">З. Сейітжанұлы — «Қазақтың көне эпосы» (PDF, 20-бет)</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap"><a href="#top">Беттің басына оралу ↑</a></div>
+  </footer>
+</body>
+</html>
